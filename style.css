@@ -76,3 +76,7 @@ body{
 .active{
     background-color: rgb(107 207 142);
 }
+.active-rem{
+    background-color: rgb(107 207 142);
+    box-shadow: 2px 5px 10px #000;
+}
