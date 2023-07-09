@@ -45,7 +45,7 @@ function getTimes(hours, minutes) {
 }
 
 
-dateText.innerHTML = date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+dateText.innerHTML = `${date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })} <div class="time-text">${date.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })}</div>`;
 dateBox.innerHTML = getDates(date.getDate(), date.getMonth(), date.getFullYear());
 timeBox.innerHTML = getTimes(date.getHours(), date.getMinutes());
 setInterval(() => {
