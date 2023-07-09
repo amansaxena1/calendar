@@ -38,6 +38,10 @@ body{
     align-items: center;
 }
 
+.time-text{
+    color: rgb(107 207 142);
+}
+
 .time-container{
     display: flex;
     flex-wrap: wrap;
