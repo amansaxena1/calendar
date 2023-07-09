@@ -33,7 +33,7 @@ function getTimes(hours, minutes) {
                 let minDiv = document.createElement('div');
                 minDiv.classList.add('mins');
                 if(minutes > 0) {
-                    minDiv.classList.add('active');
+                    minDiv.classList.add('active-rem');
                     minutes -= 10;
                 }
                 cardDiv.appendChild(minDiv);
